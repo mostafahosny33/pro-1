@@ -879,10 +879,8 @@ overflow: hidden;
     padding-top:50px ;
     padding-right: 270px;
     padding-left: 80px;
-    opacity: 0;
-    animation: testy  linear forwards;
-    animation-timeline: view();
-    animation-range:  cover  entry;
+    opacity: 1;
+    
     overflow: hidden;
     
 }
@@ -893,27 +891,12 @@ overflow: hidden;
     font-weight: normal;
     line-height: 0.9;
     color:#ccaf8a;
-    opacity: 0;
-    animation: testy linear forwards;
-    animation-timeline: view();
-    animation-range:  cover  entry;
+    opacity: 1;
+    
     overflow: hidden;
 }
-.testy img{
-    opacity: 0;
-    animation: testy  linear forwards;
-    animation-timeline: view();
-    animation-range:  cover  entry;
-    overflow: hidden;
-}
-@keyframes testy {
-    100%{
-        opacity: 1;
-        transform: translateX(0px);
 
 
-    }
-}
 @media (max-width:992px){
     .testy{
         background-size: 100%;
@@ -954,6 +937,11 @@ overflow: hidden;
         overflow: unset;
         width: 56px;
     }
+}
+@media (max-width:432px){
+        .testy {
+        margin-top: 2526px;}
+        
 }
 /*testy end*/
 
