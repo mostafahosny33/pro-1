@@ -907,12 +907,18 @@ overflow: hidden;
         width: 45%;
     }
 }
+@media (max-width:975px){
+    .testy{
+        
+        margin-top: 2000px;
+    }
+}
 
 
 @media (max-width:768px){
     .testy{
         background-size: 120%;
-        margin-top: 1600px;
+        margin-top: 2000px;
     }
     .testy h2{
         font-size: 110px;
