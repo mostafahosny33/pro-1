@@ -711,7 +711,7 @@ color: palevioletred;
 /* services end*/
 /*perfect stat*/
 .perfect{
-    background: url(../styles/images/bg_2.jpg) center no-repeat fixed;
+    background: url(./images/bg_2.jpg) center no-repeat fixed;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -868,7 +868,7 @@ overflow: hidden;
 /*perfect end*/
 /*testy start*/
 .testy{
-    background: url(../styles/images/banner_bg_2.png) center no-repeat;
+    background: url(./images/banner_bg_2.png) center no-repeat;
     background-size: 80%;
     background-position-x: 110%;
     margin-top: 500px;
